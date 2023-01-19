@@ -479,6 +479,8 @@ p { /* Paragraph */
         padding: 16px;
         align-items: center;
         background-color: transparent;
+        transition: all var(--animation-duration) ease-in-out;
+        z-index: 1;
     }
 
     #navbar.navbar--dark {
